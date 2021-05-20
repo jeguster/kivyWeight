@@ -25,8 +25,8 @@ class WeightManagementApp(App):
     
 # Run the app
 if __name__ == "__main__":
-    # Create Application object
-    weightManagementApp = WeightManagementApp
+    # Create the application object
+    weightManagementApp = WeightManagementApp()
 
     # Run it continuously
     weightManagementApp.run()
